@@ -1,0 +1,24 @@
+QTableTop 01222021 - Effects Used
+
+Apple: AUReverb2
+    Heartbeat.wav
+    Heartbeat.wav
+
+Apple: AULowpass
+    Discord Mic
+
+Apple: AUDynamicsProcessor
+    Discord Mic
+
+Apple: AUHipass
+    Discord Mic
+
+Apple: AUGraphicEQ
+    Heartbeat.wav
+    Tone.wav
+    Heartbeat.wav
+    Tone.wav
+    Rain.wav
+    Thunder.wav
+    Q# Breeze
+    Discord Mic
