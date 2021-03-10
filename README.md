@@ -21,3 +21,5 @@ Any questions can be sent to [connect@dustindmiller.design](connect@dustindmille
 7. Follow all instructions (if applicable) in Cue Notes of each Cart Button.
 8. Check the **Wiki** *(coming soon)* for details.
 9. Get Rolling!
+
+Thank you!
