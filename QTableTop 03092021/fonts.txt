@@ -1,0 +1,71 @@
+QTableTop 03092021 - Fonts Used
+
+Apple Color Emoji
+    Q# System Time
+
+Dalelands Uncial Bold
+    Q# Location Info Toggle
+
+Dalelands Uncial Condensed
+    Spell
+    Moon 
+    Cone 
+    DM
+    Player 1
+    Player 1
+    Player 2
+    Player 1
+    Player 2
+    Player 3
+    Player 1
+    Player 2
+    Player 3
+    Player 4
+    Player 1
+    Player 2
+    Player 3
+    Player 4
+    Player 5
+    Player 1
+    Player 2
+    Player 3
+    Player 4
+    Player 5
+    Player 6
+    DM
+    Character 1
+    Character 1
+    Character 2
+    Character 1
+    Character 2
+    Character 3
+    Character 1
+    Character 2
+    Character 3
+    Character 4
+    Character 1
+    Character 2
+    Character 3
+    Character 4
+    Character 5
+    Character 1
+    Character 2
+    Character 3
+    Character 4
+    Character 5
+    Character 6
+    Welcome Message
+
+Helvetica Neue Bold
+    Q# Kaliope CON
+    Q# Ekaron CON
+    Q# Ekaron GROUP
+    Q# Eldros CON
+    Q# Eldros GROUP
+    Q# Skeleton 1 LABEL
+    Q# Skeleton 2 LABEL
+    Q# Skeleton 3 LABEL
+    Q# Skeleton 4 LABEL
+
+Menlo Regular
+    Q# System Time

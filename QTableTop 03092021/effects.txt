@@ -1,0 +1,6 @@
+QTableTop 03092021 - Effects Used
+
+Apple: AUGraphicEQ
+    Rain.wav
+    Thunder.wav
+    Q# Breeze
