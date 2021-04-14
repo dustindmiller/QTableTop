@@ -8,9 +8,9 @@ tell application id "com.figure53.QLab.4" to tell front workspace
 			move cue id (uniqueID of cue message) of parent of cue message to end of cue "PARTY"
 			set text of cue (message & " GROUP") to " "
 		end repeat
-		set q name of cue ("Â· " & moveGroup) to ""
-		set q color of cue ("Â· " & moveGroup) to "Grey"
-		set armed of cue ("Â· " & moveGroup) to false
+		set q name of cue ("á " & moveGroup) to "Empty"
+		set q color of cue ("á " & moveGroup) to "Grey"
+		set armed of cue ("á " & moveGroup) to false
 	else if doubleCheck is "Target" then
 		set cue target of cue "RIGHT" to cue moveGroup
 		set cue target of cue "LEFT" to cue moveGroup
