@@ -10,7 +10,7 @@ tell application id "com.figure53.QLab.4" to tell front workspace
 	
 	if actionType is "Create" then
 		## SELECT WHAT GROUP THE TOKEN BELONGS IN
-		display dialog "Token Group..." with title "New Token Wizard" with icon 1 buttons {"PARTY", "NPCs", "Cancel"} default button "PARTY" cancel button "Cancel"
+		display dialog "Token Group..." with title "Token Sorcerer" with icon 1 buttons {"PARTY", "NPCs", "Cancel"} default button "PARTY" cancel button "Cancel"
 		set tokenType to button returned of result
 		if tokenType is "cancel" then return
 		
@@ -18,12 +18,12 @@ tell application id "com.figure53.QLab.4" to tell front workspace
 		set theTarget to choose file with prompt "Please select Token image file (100x100 pixels, PNG only!)"
 		
 		## SET TOKEN NAME
-		display dialog "Token Name" default answer "" with title "Token Wizard" with icon 1 buttons {"Cancel", "Set"} default button "Set" cancel button "Cancel"
+		display dialog "Token Name" default answer "" with title "Token Sorcerer" with icon 1 buttons {"Cancel", "Set"} default button "Set" cancel button "Cancel"
 		set tokenName to text returned of result
 		
 		## SELECT CREATURE SIZE
 		set sizeList to {"Small/Medium", "Large", "Huge", "Gargantuan"}
-		set tokenSizeChoice to (choose from list sizeList with title "Token Wizard" with prompt "Creature Size" default items "Small/Medium") as string
+		set tokenSizeChoice to (choose from list sizeList with title "Token Sorcerer" with prompt "Creature Size" default items "Small/Medium") as string
 		if tokenSizeChoice is "false" then
 			return
 		else if tokenSizeChoice is "Small/Medium" then
@@ -220,6 +220,7 @@ tell application id "com.figure53.QLab.4" to tell front workspace
 			return
 		else if mySelection is "All Tokens" then
 			set selectList to tokenList
+			set newTarg to ""
 		else if mySelection is "Party" then
 			set selectList to partyList
 		else if mySelection is "NPCs" then
@@ -367,7 +368,6 @@ tell application id "com.figure53.QLab.4" to tell front workspace
 					
 				end repeat
 				
-				
 			end repeat
 			
 		else if myChoice is "Token Cue Names" and newTarg is not "" then
@@ -406,13 +406,14 @@ tell application id "com.figure53.QLab.4" to tell front workspace
 				end if
 				
 			end repeat
+
 		else if myChoice is "Manual Move" and newTarg is not "" then
 			set selected to cue (newTarg & " TOKEN")
 			return
 		end if
-		
-		
+
 	end if
+
 	## RETURNS TO PREVIOUS ACTIVE CUE LIST
 	set current cue list to first cue list whose q name is originalCueList
 	return
