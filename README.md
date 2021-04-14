@@ -18,8 +18,9 @@ Any questions can be sent to [connect@dustindmiller.design](connect@dustindmille
 4. Patch projector to various Video Surfaces.
 5. Patch Audio Patch 1 to desired audio device.
 6. Navigate to **"QTableTop - Cart"** in Lists, Carts & Active Cues window.
-7. Follow all instructions (if applicable) in Cue Notes of each Cart Button.
-8. Check the **Wiki** *(coming soon)* for details.
-9. Get Rolling!
+7. Run "Directory Chooser" and navigate to QTableTop Directory on machine.
+8. Follow all instructions (if applicable) in Cue Notes of each Cart Button.
+9. Check the **Wiki** *(coming soon)* for details.
+10. Get Rolling!
 
 Thank you!
