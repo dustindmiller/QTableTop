@@ -8,11 +8,16 @@ tell application id "com.figure53.QLab.4" to tell front workspace
 	set newTarg to (choose from list creatureList with title "Toggle Handout" with prompt "Select Handout..." default items activeImage OK button name {"Toggle"} cancel button name {"Cancel"}) as string
 	if newTarg is "false" then
 		return
-	else
+
+	else if cue newTarg is running
+		hardStop cue newTarg
+	else if (cue newTarg is not running) and (activeImage is "None")
 		start cue newTarg
-	end if
-	if (cue activeImage exists) and (cue activeImage is running) then
-		start cue activeImage
+	else if (cue newTarg is not running) and (cue activeImage exists)
+		start cue newTarg
+		hardStop cue activeImage
+	else if (cue activeImage exists) and (cue activeImage is running) then
+		hardStop cue activeImage
 	end if
 	delay 0.1
 	if cue newTarg is running then
